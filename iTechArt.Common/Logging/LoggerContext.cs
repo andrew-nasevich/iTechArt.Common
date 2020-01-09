@@ -8,7 +8,6 @@
         public static ILogger Current
         {
             get => _logger ?? (_logger = new Logger("Default logger"));
-
             set => _logger = value;
         }
     }

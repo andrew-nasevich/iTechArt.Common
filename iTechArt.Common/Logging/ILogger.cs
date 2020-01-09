@@ -8,7 +8,7 @@ namespace iTechArt.Common.Logging
 
         void LogTrace(string message);
 
-        void LogWarn(Exception e, string message);
+        void LogWarn(string message, Exception e = null);
 
         void LogError(Exception e, string message);
 

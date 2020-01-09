@@ -24,7 +24,7 @@ namespace iTechArt.Common.Logging
             _logger.Trace(message);
         }
 
-        public void LogWarn(Exception e, string message)
+        public void LogWarn(string message, Exception e = null)
         {
             _logger.Warn(e, message);
         }
