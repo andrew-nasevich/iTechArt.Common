@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TicTacToe.Common.Extensions
+namespace iTechArt.Common.Extensions
 {
     public static class EventExtensions
     {

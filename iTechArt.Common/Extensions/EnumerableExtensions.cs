@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TicTacToe.Common.Extensions
+namespace iTechArt.Common.Extensions
 {
     public static class EnumerableExtensions
     {
